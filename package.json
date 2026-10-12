@@ -1,0 +1,23 @@
+{
+  "name": "work-io-platform",
+  "version": "1.0.0",
+  "description": "work.io - Enterprise Worklog & Analytics Portal",
+  "main": "api/index.js",
+  "scripts": {
+    "build": "cd frontend && npm install && npm run build",
+    "start": "node backend/server.js",
+    "dev": "node backend/server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongodb-memory-server": "^11.2.0",
+    "mongoose": "^9.8.0"
+  },
+  "engines": {
+    "node": ">=18.x"
+  }
+}
